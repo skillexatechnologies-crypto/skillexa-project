@@ -37,8 +37,8 @@ interface Course {
 }
 
 const heroStats = [
-  { label: "Internship Track", value: "Mobile App Dev", icon: Smartphone },
-  { label: "Platform", value: "Flutter", icon: Rocket },
+  { label: "Internship , value: "Java,Python,AWS", icon: Smartphone },
+  { label: "Platform", value: "Android", icon: Rocket },
   { label: "Certificate", value: "QR Verified", icon: Award },
   { label: "Access", value: "Free", icon: Users },
 ];
@@ -115,8 +115,8 @@ export default function AcademyLandingPage() {
                 transition={{ duration: 0.6, delay: 0.3 }}
                 className="mt-6 text-lg text-white/80 leading-relaxed max-w-lg"
               >
-                Master local commerce fundamentals and earn a certificate that qualifies you for the
-                Mobile Application Development internship at LocalWala.
+               Skillexa is a skill development, technology training, and career-focused organization committed to empowering students, graduates, job seekers,
+                and working professionals with the knowledge and practical skills required to succeed in today’s competitive and rapidly evolving job market.
               </motion.p>
 
               <motion.div
@@ -222,9 +222,9 @@ export default function AcademyLandingPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal className="text-center max-w-3xl mx-auto">
             <SectionHeading
-              label="Why Academy"
+              label="Why skillexa"
               title="Built for Aspiring Mobile App Developers"
-              subtitle="Real-world local commerce training, not just theory"
+              subtitle="Real-world commerce training, not just theory"
             />
           </ScrollReveal>
 
