@@ -11,15 +11,15 @@ import Link from "next/link";
 import { StaggerContainer, StaggerItem } from "@/components/animations/scroll-reveal";
 
 const timelineItems = [
-  { year: "2025", title: "The Beginning", desc: "Founded with a vision to empower local restaurants. Started with 50 restaurant partners in Hyderabad." },
-  { year: "2026", title: "Early Growth", desc: "Building our foundation and onboarding early delivery partners. Establishing our presence in local communities." },
-  { year: "2027", title: "Expansion", desc: "Planning to scale across Telangana with 500+ restaurant partners and growing delivery fleet." },
-  { year: "Future", title: "The Vision", desc: "Become India's most trusted local commerce platform. Empower 1 million+ local businesses." },
+  { year: "2010", title: "The Beginning", desc: "Founded with a vision to empower local students to enhance the skills." },
+  { year: "2020", title: "Early Growth", desc: "Building our foundation and onboarding early delivery . Establishing our presence in local communities." },
+  { year: "2025", title: "Expansion", desc: "Planning to scale across Telangana with 500+ mnc compaines." },
+  { year: "Future", title: "The Vision", desc: "Become Telangana most trusted company. Empower 1 million+ coorporates." },
 ];
 
 const values = [
-  { icon: Heart, title: "Community First", desc: "We put local businesses and their communities at the heart of everything we do." },
-  { icon: Lightbulb, title: "Innovation", desc: "Leveraging cutting-edge technology to solve real-world problems for local merchants." },
+  { icon: Heart, title: "Community First", desc: "We want to place each and every student in one of the best organizations." },
+  { icon: Lightbulb, title: "Innovation", desc: "Leveraging cutting-edge technology to solve real-world problems ." },
   { icon: Users, title: "Trust", desc: "Building lasting relationships based on transparency, reliability, and mutual growth." },
   { icon: Globe, title: "Scalability", desc: "Designed to scale from neighbourhood to nation, empowering businesses everywhere." },
 ];
@@ -36,9 +36,12 @@ export default function AboutUsPage() {
                 Building the Future of <span className="text-brand-primary">Local Commerce</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-                LocalWala Food was born from a simple belief: every local restaurant deserves
-                the same technology and reach as the biggest chains. We&apos;re on a mission to
-                democratize food delivery across India.
+                Skillexa is an innovative skill development and career-focused platform dedicated to helping students, 
+                graduates, job seekers, and professionals build practical, industry-relevant skills. 
+                Through technology-driven learning, hands-on training, real-world projects, internships, and career support,
+                Skillexa aims to bridge the gap between academic education and industry requirements.
+                The platform focuses on empowering learners with the knowledge, confidence, and practical experience
+                needed to succeed in today’s competitive job market
               </p>
             </div>
           </ScrollReveal>
@@ -59,9 +62,7 @@ export default function AboutUsPage() {
                 </div>
                 <h3 className="text-2xl font-black text-gray-900 mb-3">Our Mission</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  To empower every local food business in India with world-class technology,
-                  enabling them to reach more customers, grow their revenue, and build sustainable
-                  businesses that support their families and communities.
+                  To create a skilled, confident, and future-ready workforce through accessible, practical, and industry-aligned learning.
                 </p>
               </GlassCard>
             </ScrollReveal>
@@ -72,9 +73,8 @@ export default function AboutUsPage() {
                 </div>
                 <h3 className="text-2xl font-black text-gray-900 mb-3">Our Vision</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  To become India&apos;s most trusted and beloved local commerce platform, connecting
-                  millions of merchants with customers, creating economic opportunities for
-                  delivery partners, and enabling joyful food experiences for everyone.
+                 Our Mission: To provide quality training, real-world project exposure, internship opportunities, skill certification,
+                  and career guidance that support learners in achieving their professional goals.
                 </p>
               </GlassCard>
             </ScrollReveal>
@@ -148,10 +148,9 @@ export default function AboutUsPage() {
                 “
               </motion.div>
               <blockquote className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-8 font-medium italic">
-                Every local restaurant has a story worth sharing. Our job is to make sure
-                that story reaches as many people as possible. LocalWala Food isn&apos;t just a
-                platform — it&apos;s a movement to put local businesses back at the heart of our
-                communities.
+                Through our internship programs, learners gain valuable exposure to real-time projects, professional work environments,
+                teamwork, and industry practices. We encourage participants to apply their knowledge,
+                build strong portfolios, and develop the practical experience needed to pursue successful careers.
               </blockquote>
               <div className="flex items-center justify-center gap-4">
                 <div className="w-14 h-14 rounded-full gradient-primary flex items-center justify-center shadow-lg">
@@ -175,13 +174,13 @@ export default function AboutUsPage() {
               Ready to Join the Movement?
             </h2>
             <p className="text-lg text-white/90 mb-10">
-              Whether you&apos;re a restaurant owner, delivery partner, or looking to grow your career —
-              we have a place for you.
+            To become a trusted leader in skill development and professional education by creating a future-ready workforce equipped with practical knowledge, 
+              innovative thinking, and industry-relevant skills.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Link href="/restaurant-partners">
                 <Button size="lg" variant="secondary" className="shadow-xl">
-                  Onboard Restaurant <ArrowRight className="ml-2 h-5 w-5" />
+                  Onboard  <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
               <Link href="/careers">
