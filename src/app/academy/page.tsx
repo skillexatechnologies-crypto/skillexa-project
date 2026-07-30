@@ -37,7 +37,7 @@ interface Course {
 }
 
 const heroStats = [
-  { label: "Internship , value: "Java", icon: Smartphone },
+  { label: "Internship ", value: "AWS,DEVOPS", icon: Smartphone },
   { label: "Platform", value: "Android", icon: Rocket },
   { label: "Certificate", value: "QR Verified", icon: Award },
   { label: "Access", value: "Free", icon: Users },
