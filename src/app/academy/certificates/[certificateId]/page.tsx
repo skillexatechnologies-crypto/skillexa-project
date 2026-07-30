@@ -141,7 +141,7 @@ export default function CertificateViewPage({ params }: { params: { certificateI
               <div className="flex items-end justify-between">
                 <div className="text-center">
                   <p className="text-lg font-bold text-slate-900 italic" style={{ fontFamily: "'Brush Script MT','Lucida Handwriting',cursive" }}>
-                    Mandava Charan Teja
+                    R Ranjith Kumar
                   </p>
                   <div className="w-32 h-px bg-slate-800 mt-2 mb-2 mx-auto" />
                   <p className="text-[10px] font-bold text-slate-600 tracking-widest uppercase">Founder</p>
@@ -151,7 +151,7 @@ export default function CertificateViewPage({ params }: { params: { certificateI
                     <div className="absolute inset-0 rounded-full border-[3px] border-red-700/80 rotate-[-8deg] scale-110" />
                     <div className="absolute inset-0 rounded-full border-2 border-red-700/50 rotate-[6deg] scale-105" />
                     <div className="absolute inset-0 flex flex-col items-center justify-center">
-                      <span className="text-[8px] font-black tracking-widest text-red-800 uppercase leading-tight rotate-[-3deg]">WeWorkLocal</span>
+                      <span className="text-[8px] font-black tracking-widest text-red-800 uppercase leading-tight rotate-[-3deg]">SKILLEXA TECHNOLOGIES</span>
                       <span className="text-[10px] leading-none text-red-700">★★★★</span>
                     </div>
                   </div>
@@ -164,7 +164,7 @@ export default function CertificateViewPage({ params }: { params: { certificateI
 
           <div className="bg-slate-50 px-8 py-4 border-t border-slate-200">
             <p className="text-center text-[10px] text-slate-400 tracking-wider">
-              Powered by LocalWala & WeWorkLocal | Verify at localwala.tech/academy/certificates/verify/{certificate.certificate_id}
+              Powered by SKILLEXA TECHNOLOGIES | Verify at learn.skillexatechnologies.com/academy/certificates/verify/{certificate.certificate_id}
             </p>
           </div>
         </div>
