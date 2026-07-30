@@ -2,14 +2,14 @@ import { Document, Page, Text, View, StyleSheet, Font } from "@react-pdf/rendere
 import { supabaseAdmin } from "@/lib/supabase";
 
 const COMPANY = {
-  name: "WeWorkLocal",
+  name: "SKILLEXA TECHNOLOGIES",
   tagline: "India's Smart Local Services & Marketplace Platform",
-  email: "onboarding@localwala.tech",
+  email: "INFO@SKILLEXA.COM",
   phone: "+91 9182793401",
   address: [
-    "Dullapally",
-    "Dundigal-Gandimaisamma",
-    "Medchal-Malkajgiri",
+    "MADHAPUR",
+    "HYDERABAD",
+    "RANGAREDDY",
     "Telangana Pin Code: 500100",
   ],
 };
@@ -157,7 +157,7 @@ function InternshipLetterPdf({
 
         <View style={styles.subjectBlock}>
           <Text>
-            Subject: <Text style={{ fontWeight: "bold" }}>Appointment as Intern – Mobile Application Development</Text>
+            Subject: <Text style={{ fontWeight: "bold" }}>Appointment as Intern – SOFTWARE TRAINEE INTERN</Text>
           </Text>
         </View>
 
@@ -171,7 +171,7 @@ function InternshipLetterPdf({
             <Text style={{ fontWeight: "bold" }}>Intern – Mobile Application Development</Text> at{" "}
             <Text style={{ fontWeight: "bold" }}>{COMPANY.name}</Text>. This selection is based on your successful
             completion of the certification program through our onboarding portal at{" "}
-            <Text style={{ fontWeight: "bold" }}>onboard.localwala.tech</Text>. We are confident that your skills and
+            <Text style={{ fontWeight: "bold" }}>INFO@SKILLEXA.COM</Text>. We are confident that your skills and
             enthusiasm will be a valuable addition to our team.
           </Text>
 
