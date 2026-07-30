@@ -154,11 +154,11 @@ export default function AboutUsPage() {
               </blockquote>
               <div className="flex items-center justify-center gap-4">
                 <div className="w-14 h-14 rounded-full gradient-primary flex items-center justify-center shadow-lg">
-                  <span className="text-xl font-bold text-white">MCT</span>
+                  <span className="text-xl font-bold text-white">RRK</span>
                 </div>
                 <div className="text-left">
-                  <p className="font-bold text-gray-900">Mandava Charan Teja</p>
-                  <p className="text-sm text-gray-500">CEO & Founder, LocalWala Food</p>
+                  <p className="font-bold text-gray-900">RANJITH KUMAR</p>
+                  <p className="text-sm text-gray-500">MANAGING DIRECTOR & SR.DEVELOPER</p>
                 </div>
               </div>
             </GlassCard>
