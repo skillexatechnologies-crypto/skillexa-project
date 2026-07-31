@@ -7,16 +7,16 @@ import { siteConfig } from "@/lib/site-config";
 
 const footerLinks = {
   platform: [
-    { name: "Restaurant Partners", href: "/restaurant-partners" },
-    { name: "Delivery Partners", href: "/delivery-partners" },
+    { name: "AWS Deops", href: "/restaurant-partners" },
+    { name: "Data Science, href: "/delivery-partners" },
     { name: "Careers", href: "/careers" },
     { name: "About Us", href: "/about-us" },
     { name: "Contact Us", href: "/contact-us" },
   ],
   solutions: [
-    { name: "Restaurant Onboarding", href: "#" },
-    { name: "Delivery Network", href: "#" },
-    { name: "Technology", href: "#" },
+    { name: "Training", href: "#" },
+    { name: "Placements", href: "#" },
+    { name: "Publication", href: "#" },
     { name: "Business Growth", href: "#" },
   ],
   company: [
@@ -40,11 +40,11 @@ export default function Footer() {
                   <span className="text-lg font-black text-white tracking-tighter">L</span>
                 </div>
                 <span className="text-lg font-black tracking-tight text-white">
-                  LOCALWALA<span className="text-brand-primary"> FOOD</span>
+                  SKILLEXA<span className="text-brand-primary"> TECHNOLOGIES</span>
                 </span>
               </Link>
               <p className="mt-4 max-w-sm text-gray-400 leading-relaxed text-sm">
-                Delivering Local. Empowering Businesses.
+                Training & Developing. Empowering Businesses.
                 We&apos;re building the future of local commerce through technology.
               </p>
               <div className="mt-6 flex gap-3">
@@ -109,7 +109,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 py-8">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-sm text-gray-500">
-              &copy; {new Date().getFullYear()} LocalWala Food. All rights reserved.
+              &copy; {new Date().getFullYear()} Copy Right @2026. All rights reserved By SKillExa Technologies.
             </p>
             <div className="flex gap-6">
               <Link href="#" className="text-sm text-gray-500 transition-colors hover:text-brand-primary">Privacy Policy</Link>
