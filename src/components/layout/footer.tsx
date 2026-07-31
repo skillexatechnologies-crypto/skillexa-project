@@ -7,8 +7,8 @@ import { siteConfig } from "@/lib/site-config";
 
 const footerLinks = {
   platform: [
-    { name: "AWS Deops", href: "/restaurant-partners" },
-    { name: "Data Science, href: "/delivery-partners" },
+    { name: "AWS DevOps", href: "/restaurant-partners" },
+    { name: "Data Science", href: "/delivery-partners" },
     { name: "Careers", href: "/careers" },
     { name: "About Us", href: "/about-us" },
     { name: "Contact Us", href: "/contact-us" },
