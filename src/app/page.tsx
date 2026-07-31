@@ -88,7 +88,7 @@ export default function Home() {
               </motion.div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-[1.1] tracking-tight">
-                <CinematicText text="Delivering Local." className="block" />
+                <CinematicText text="SKILLEXA TECHNOLOGIES." className="block" />
                 <span className="block text-brand-primary mt-1">
                   <CinematicText text="Empowering Businesses." />
                 </span>
@@ -100,10 +100,8 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.3 }}
                 className="mt-6 text-lg text-gray-300 leading-relaxed max-w-lg"
               >
-                LocalWala Food connects local restaurants, cafes, and food
-                businesses with hungry customers through our premium delivery
-                network. Scale your business, reach more customers, and grow
-                faster.
+                SkillExa is your trusted learning platform designed to help students and professionals build practical skills for academic success and career growth.
+                We provide high-quality courses, mock tests, coding practice, interview preparation, and industry-focused training—all in one place.
               </motion.p>
 
               <motion.div
@@ -114,7 +112,7 @@ export default function Home() {
               >
                 <Link href="/restaurant-partners">
                   <Button size="lg" className="text-base px-8 shadow-xl hover:shadow-2xl">
-                    Onboard Your Restaurant
+                    Onboard Your Organization
                     <ChevronRight className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
@@ -148,7 +146,7 @@ export default function Home() {
                     ))}
                   </div>
                   <p className="text-sm text-gray-400 font-medium">
-                     Trusted by Growing Partner Network
+                     Trusted by Growing Partner Networks
                   </p>
                 </div>
               </motion.div>
@@ -168,13 +166,13 @@ export default function Home() {
                          <Store className="h-6 w-6 text-white" />
                        </div>
                        <div>
-                         <h3 className="font-bold text-gray-900">Partner Dashboard</h3>
+                         <h3 className="font-bold text-gray-900">Student Dashboard</h3>
                          <p className="text-sm text-gray-500">Early Growth Phase</p>
                        </div>
                      </div>
                      <div className="space-y-4">
                        <div className="flex justify-between items-center">
-                         <span className="text-sm text-gray-500">This Month&apos;s Orders</span>
+                         <span className="text-sm text-gray-500">This Month&apos;s Trainings</span>
                          <span className="text-2xl font-black text-brand-primary">Growing</span>
                        </div>
                        <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
@@ -186,7 +184,7 @@ export default function Home() {
                          />
                        </div>
                        <div className="flex justify-between">
-                         <span className="text-sm text-gray-500">Onboarding Phase</span>
+                         <span className="text-sm text-gray-500">Onboarding Students</span>
                          <span className="text-sm font-semibold text-green-600">Active</span>
                        </div>
                      </div>
@@ -201,7 +199,7 @@ export default function Home() {
                        <div className="flex items-center gap-3">
                          <div className="text-3xl">🛵</div>
                          <div>
-                           <p className="text-sm font-bold text-gray-900">New Partner Onboarded!</p>
+                           <p className="text-sm font-bold text-gray-900">New Students Placed!</p>
                            <p className="text-xs text-gray-500">Just now</p>
                          </div>
                        </div>
@@ -264,13 +262,13 @@ export default function Home() {
       <section className="py-24 gradient-subtle">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal className="text-center max-w-3xl mx-auto">
-            <Badge variant="brand" className="mb-6">Why LocalWala Food?</Badge>
+            <Badge variant="brand" className="mb-6">Why SkillExa?</Badge>
             <h2 className="text-3xl md:text-4xl font-black text-gray-900 mb-6">
               Built for Speed. <br />
               <span className="text-brand-primary">Designed for Growth.</span>
             </h2>
             <p className="text-lg text-gray-600 mb-12">
-              Our platform provides every tool you need to run a successful food business
+              Our platform provides every  students  need to place a successful food Digital Era
               in today&apos;s competitive market.
             </p>
           </ScrollReveal>
@@ -332,9 +330,9 @@ export default function Home() {
 
           <StaggerContainer className="mt-16 grid md:grid-cols-3 gap-8">
             {[
-              { step: "01", title: "Apply Online", desc: "Fill out the onboarding form with your restaurant details." },
+              { step: "01", title: "Apply Online", desc: "Grow Your Career with Real Time Industry experts " },
               { step: "02", title: "Quick Verification", desc: "Our team reviews your application within 24-48 hours." },
-              { step: "03", title: "Go Live", desc: "Start receiving orders and grow your business." },
+              { step: "03", title: "Go Live", desc: "Start Learning ." },
             ].map((item, i) => (
               <StaggerItem key={i}>
                 <div className="relative">
@@ -363,18 +361,18 @@ export default function Home() {
               Ready to Grow Your Business?
             </h2>
             <p className="text-lg text-white/90 mb-10 max-w-2xl mx-auto">
-              Join 5000+ restaurant partners already growing with LocalWala Food.
-              Start your onboarding today.
+              Join 5000+ students placed already & n number of students growing with SkillExa.
+              Start your Journey today.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/restaurant-partners">
                 <Button size="lg" variant="secondary" className="text-base px-8 shadow-xl">
-                  Onboard as Restaurant
+                  Start your Journey
                 </Button>
               </Link>
               <Link href="/delivery-partners">
                 <Button size="lg" variant="outline" className="text-base px-8 bg-white/10 border-white/30 text-white hover:bg-white/20">
-                  Join as Delivery Partner
+                  Join as Student
                 </Button>
               </Link>
             </div>
