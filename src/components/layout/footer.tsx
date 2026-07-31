@@ -37,7 +37,7 @@ export default function Footer() {
             <div className="lg:col-span-2">
               <Link href="/" className="flex items-center gap-2">
                 <div className="flex h-10 w-10 items-center justify-center rounded-lg gradient-primary shadow-md">
-                  <span className="text-lg font-black text-white tracking-tighter">L</span>
+                  <span className="text-lg font-black text-white tracking-tighter">SKT</span>
                 </div>
                 <span className="text-lg font-black tracking-tight text-white">
                   SKILLEXA<span className="text-brand-primary"> TECHNOLOGIES</span>
