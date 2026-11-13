@@ -187,7 +187,7 @@ export default function AcademyDashboard() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-3xl font-bold mb-2">Welcome back, {userName || "Learner"}</h1>
-              <p className="text-white/80 mb-4">Continue your learning journey toward the Mobile Application Development internship</p>
+              <p className="text-white/80 mb-4">Continue your learning journey toward the  Application Development internship</p>
               <div className="flex gap-3 flex-wrap">
                 <Link href="/academy/courses">
                   <button className="bg-white text-academy-primary hover:bg-white/90 px-4 py-2 rounded-lg font-semibold text-sm">
