@@ -113,7 +113,7 @@ export default function CoursesPage() {
     <div className="space-y-6">
       <div>
         <h1 className="text-2xl font-bold text-gray-900 mb-1">Browse Certifications</h1>
-        <p className="text-gray-500">Complete the course, earn your certificate, and qualify for the Mobile Application Development internship</p>
+        <p className="text-gray-500">Complete the course, earn your certificate, and qualify for the t internship</p>
       </div>
 
       <div className="relative">
