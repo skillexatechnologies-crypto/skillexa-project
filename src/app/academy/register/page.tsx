@@ -77,7 +77,7 @@ export default function AcademyRegisterPage() {
           <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-academy-primary to-academy-secondary flex items-center justify-center mx-auto mb-3">
             <GraduationCap className="h-6 w-6 text-white" />
           </div>
-          <h1 className="text-2xl font-bold text-gray-900">Create Account</h1>
+          <h1 className="text-2xl font-bold text-gray-900"> Account</h1>
           <p className="text-sm text-gray-500 mt-1">Join SKILLEXA TECHNOLOHIES</p>
         </div>
 
@@ -87,7 +87,7 @@ export default function AcademyRegisterPage() {
             <Input
               id="fullName"
               type="text"
-              placeholder="John Doe"
+              placeholder="RANJITH KUMAR"
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
               required
