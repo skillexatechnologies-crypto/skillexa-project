@@ -95,7 +95,7 @@ export default function AcademyLandingPage() {
               >
                 <Badge className="bg-white/10 text-white border-white/20 backdrop-blur-sm">
                   <GraduationCap className="h-3 w-3 mr-1" />
-                  WeWorkLocal Academy
+                 SKILLEXA
                 </Badge>
               </motion.div>
 
@@ -310,7 +310,7 @@ export default function AcademyLandingPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal className="text-center max-w-3xl mx-auto">
             <SectionHeading
-              label="About LocalWala"
+              label="About SKILLEXA"
               title="The Platform & The Internship"
               subtitle="Join India's most trusted local commerce platform"
             />
@@ -321,7 +321,7 @@ export default function AcademyLandingPage() {
               {
                 icon: Globe,
                 title: "What We Do",
-                desc: "LocalWala connects local restaurants, cafes, cloud kitchens, and food trucks with customers through a powerful delivery network built on cutting-edge technology.",
+                desc: "SKILLEXA connects local businessess, cafes, cloud kitchens, and food trucks with customers through a powerful delivery network built on cutting-edge technology.",
               },
               {
                 icon: Rocket,
@@ -346,17 +346,17 @@ export default function AcademyLandingPage() {
               {
                 icon: Award,
                 title: "Career Growth",
-                desc: "This is not just an internship. It is a structured path to a full-time Mobile Application Development role at LocalWala for top performers.",
+                desc: "This is not just an internship. It is a structured path to a full-time Mobile Application Development role at SKILLEXA for top performers.",
               },
               {
                 icon: Rocket,
                 title: "Mobile Application Development",
-                desc: "Work on the LocalWala customer and partner apps built with Flutter. Implement UI screens, integrate APIs, manage state with Provider or Riverpod, and publish releases.",
+                desc: "Work on the Local business customer and partner apps built with Flutter. Implement UI screens, integrate APIs, manage state with Provider or Riverpod, and publish releases.",
               },
               {
                 icon: BookOpen,
                 title: "App Ecosystem",
-                desc: "LocalWala includes customer ordering, restaurant management, delivery partner tracking, and admin dashboards. Learn how these modules connect in a real product ecosystem.",
+                desc: "SKILLEXXA includes customer ordering, restaurant management, delivery partner tracking, and admin dashboards. Learn how these modules connect in a real product ecosystem.",
               },
               {
                 icon: Users,
