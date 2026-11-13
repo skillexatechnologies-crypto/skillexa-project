@@ -36,7 +36,7 @@ export default function AcademyLoginPage() {
       }
 
       if (data.user) {
-        toast.success("Welcome to WeWorkLocal Academy!");
+        toast.success("Welcome to SKILLEXA!");
         router.refresh();
         setTimeout(() => {
           window.location.href = "/academy/dashboard";
@@ -57,7 +57,7 @@ export default function AcademyLoginPage() {
           <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-academy-primary to-academy-secondary flex items-center justify-center mx-auto mb-3">
             <GraduationCap className="h-6 w-6 text-white" />
           </div>
-          <h1 className="text-2xl font-bold text-gray-900">WeWorkLocal Academy</h1>
+          <h1 className="text-2xl font-bold text-gray-900">SKILLEXA</h1>
           <p className="text-sm text-gray-500 mt-1">Learn. Certify. Internship.</p>
         </div>
 
