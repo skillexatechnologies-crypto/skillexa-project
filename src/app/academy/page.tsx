@@ -310,7 +310,7 @@ export default function AcademyLandingPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal className="text-center max-w-3xl mx-auto">
             <SectionHeading
-              label="About SKILLEXA"
+              label="ABOUT SKILLEXA"
               title="The Platform & The Internship"
               subtitle="Join India's most trusted local commerce platform"
             />
