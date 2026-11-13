@@ -168,7 +168,7 @@ function InternshipLetterPdf({
 
           <Text>
             We are pleased to inform you that you have been selected as an{" "}
-            <Text style={{ fontWeight: "bold" }}>Intern – Mobile Application Development</Text> at{" "}
+            <Text style={{ fontWeight: "bold" }}>Intern –e Application Development</Text> at{" "}
             <Text style={{ fontWeight: "bold" }}>{COMPANY.name}</Text>. This selection is based on your successful
             completion of the certification program through our onboarding portal at{" "}
             <Text style={{ fontWeight: "bold" }}>INFO@SKILLEXA.COM</Text>. We are confident that your skills and
