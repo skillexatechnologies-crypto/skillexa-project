@@ -132,7 +132,7 @@ export default function InternshipApplicationPage() {
               <CheckCircle2 className="h-8 w-8 text-green-600" />
             </div>
             <h1 className="text-2xl font-bold mb-2">Application Submitted!</h1>
-            <p className="text-gray-500 mb-4">Your Mobile Application Development internship application has been received. Our team will review your certificate and get back to you shortly.</p>
+            <p className="text-gray-500 mb-4">Your internship application has been received. Our team will review your certificate and get back to you shortly.</p>
             <Badge variant="default" className="mb-4">Pending Review</Badge>
             <div className="flex gap-3 justify-center">
               <a href="/academy/dashboard"><button className="bg-academy-primary text-white px-4 py-2 rounded-lg">Go to Dashboard</button></a>
@@ -153,7 +153,7 @@ export default function InternshipApplicationPage() {
               <AlertCircle className="h-8 w-8 text-blue-600" />
             </div>
             <h1 className="text-2xl font-bold mb-2">Application Already Submitted</h1>
-            <p className="text-gray-500 mb-4">You have already applied for the Mobile Application Development internship. Check your application status below.</p>
+            <p className="text-gray-500 mb-4">You have already applied for the  internship. Check your application status below.</p>
             <div className="space-y-2 mb-4">
               {existingApplications.map((app) => (
                 <div key={app.id} className="p-3 rounded-lg bg-gray-50 text-sm flex items-center justify-between">
@@ -178,7 +178,7 @@ export default function InternshipApplicationPage() {
           <CardContent className="p-8 text-center">
             <GraduationCap className="h-16 w-16 text-gray-300 mx-auto mb-4" />
             <h1 className="text-2xl font-bold mb-2">Certificate Required</h1>
-            <p className="text-gray-500 mb-4">You need to complete a certification course and pass the final assessment (above 68%) before applying for the Mobile Application Development internship.</p>
+            <p className="text-gray-500 mb-4">You need to complete a certification course and pass the final assessment (above 68%) before applying for the Application Development internship.</p>
             <a href="/academy/courses"><button className="bg-academy-primary text-white px-4 py-2 rounded-lg">Browse Certifications</button></a>
           </CardContent>
         </Card>
@@ -190,15 +190,15 @@ export default function InternshipApplicationPage() {
     <div className="max-w-2xl mx-auto space-y-6">
       <div>
         <h1 className="text-2xl font-bold text-gray-900 mb-1">Apply for Internship</h1>
-        <p className="text-gray-500">Mobile Application Development Internship at WeWorkLocal</p>
+        <p className="text-gray-500"> Application Development Internship at SKILLEXA</p>
       </div>
 
       <Card className="border-0 shadow-lg bg-academy-light">
         <CardContent className="p-4 flex items-start gap-3">
           <GraduationCap className="h-5 w-5 text-academy-primary mt-0.5" />
           <div>
-            <p className="font-semibold text-sm">Internship Opportunity: Mobile Application Development</p>
-            <p className="text-sm text-gray-600 mt-1">Complete a certification, earn your certificate, and apply for our structured Mobile Application Development internship program.</p>
+            <p className="font-semibold text-sm">Internship Opportunity:Application Development</p>
+            <p className="text-sm text-gray-600 mt-1">Complete a certification, earn your certificate, and apply for our structured  Application Development internship program.</p>
           </div>
         </CardContent>
       </Card>
