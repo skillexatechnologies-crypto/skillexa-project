@@ -7,14 +7,14 @@ import { createClient } from "@/lib/supabase/client";
 import Link from "next/link";
 
 const COMPANY = {
-  name: "WeWorkLocal",
-  tagline: "India's Smart Local Services & Marketplace Platform",
-  email: "onboarding@localwala.tech",
+  name: "SKILLEXA",
+  tagline: "learn innovate",
+  email: "info@skillexatechnologies.com",
   phone: "+91 9182793401",
   address: [
-    "Dullapally",
-    "Dundigal-Gandimaisamma",
-    "Medchal-Malkajgiri",
+    "madhaapur",
+    "Hyderabad,
+    "Arunodhya colony",
     "Telangana Pin Code: 500100",
   ],
 };
@@ -140,7 +140,7 @@ export default function InternshipLetterPage() {
             <Award className="h-8 w-8 text-white" />
             <div>
               <h2 className="text-xl font-bold text-white">Internship Opportunity</h2>
-              <p className="text-white/80 text-sm">Mobile Application Development Internship at WeWorkLocal</p>
+              <p className="text-white/80 text-sm"> Application Development Internship at SKILLEXA</p>
             </div>
           </div>
         </div>
@@ -149,7 +149,7 @@ export default function InternshipLetterPage() {
           <div className="space-y-6">
             <div className="text-center space-y-2">
               <h3 className="text-2xl font-bold text-gray-900">Congratulations!</h3>
-              <p className="text-gray-600">You have successfully completed the certification and are now eligible for the Mobile Application Development internship program.</p>
+              <p className="text-gray-600">You have successfully completed the certification and are now eligible for the  internship program.</p>
             </div>
 
             <div className="border border-gray-200 rounded-xl overflow-hidden">
@@ -186,14 +186,14 @@ export default function InternshipLetterPage() {
                   </div>
 
                   <div className="mb-6">
-                    <p className="text-sm font-medium text-gray-700">Subject: <span className="font-semibold">Appointment as Intern – Mobile Application Development</span></p>
+                    <p className="text-sm font-medium text-gray-700">Subject: <span className="font-semibold">Appointment as Intern – Application Development</span></p>
                   </div>
 
                   <div className="space-y-4 text-sm text-gray-700 leading-relaxed">
                     <p>Dear <span className="font-semibold">{userName}</span>,</p>
 
                     <p>
-                      We are pleased to inform you that you have been selected as an <strong>Intern – Mobile Application Development</strong> at <strong>{COMPANY.name}</strong>. This selection is based on your successful completion of the certification program through our onboarding portal at <strong>onboard.localwala.tech</strong>. We are confident that your skills and enthusiasm will be a valuable addition to our team.
+                      We are pleased to inform you that you have been selected as an <strong>Intern –Application Development</strong> at <strong>{COMPANY.name}</strong>. This selection is based on your successful completion of the certification program through our onboarding portal at <strong>onboard.localwala.tech</strong>. We are confident that your skills and enthusiasm will be a valuable addition to our team.
                     </p>
 
                     <p>
