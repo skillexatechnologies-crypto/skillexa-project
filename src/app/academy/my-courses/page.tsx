@@ -92,7 +92,7 @@ export default function MyCoursesPage() {
       <div className="text-center py-12">
         <BookOpen className="h-16 w-16 text-gray-300 mx-auto mb-4" />
         <h3 className="text-lg font-semibold mb-2">No enrolled courses</h3>
-        <p className="text-gray-500 mb-4">Enroll in a certification course to start your journey to the Mobile Application Development internship</p>
+        <p className="text-gray-500 mb-4">Enroll in a certification course to start your journey to the Application Development internship</p>
         <Link href="/academy/courses" className="inline-block bg-academy-primary text-white px-4 py-2 rounded-lg">
           Browse Certifications
         </Link>
